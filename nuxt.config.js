@@ -20,6 +20,12 @@ module.exports = {
   /*
   ** Build configuration
   */
+	css: [
+		{
+			src: '~assets/css/common.less',
+			lang: 'less'
+		}
+	],
   build: {
     /*
     ** Run ESLint on save
@@ -33,6 +39,6 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+		}
   }
 }
