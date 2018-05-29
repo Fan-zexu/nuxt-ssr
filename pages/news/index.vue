@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>News Index page</h2>
+    <img src="~static/star.png" alt="">
     <p>NewsId: {{$route.params.newsId}}</p>
     <ul>
       <li><nuxt-link to="/">Home</nuxt-link></li>
